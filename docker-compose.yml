@@ -1,0 +1,6 @@
+services:
+  ci_test:
+    image: ci-test:latest
+    build: .
+    volumes:
+      - ./logs:/var/logs
